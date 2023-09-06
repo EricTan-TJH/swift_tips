@@ -1,5 +1,12 @@
 # swift_tips
 
+### A better way to keep track of 3rd party privacy practices in Xcode.
+Use Privacy Manifests to identify privacy practices of 3rd party dependencies you use in your app. In Xcode 15, you can collect all privacy manifests by:
+1. Archive your app.
+2. Go to your Xcode Organizer and highlight the archived app.
+3. Then open the context menu, and select “Generate Privacy Report”.
+This is a healthy way to view and reference your app’s privacy details. 
+
 
 ### How to make it easier to access your asset catalogs in Xcode 15.
 Xcode 15 makes it easier to access your asset catalog with static properties. Instead of typing the name of your asset (which can be error-prone), Xcode will automatically generate a static property under ColorResource and ImageResource types.
